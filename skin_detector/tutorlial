@@ -1,0 +1,9 @@
+# init env
+conda create --name pytco
+
+conda activate pytco
+
+# for first time
+conda install --file requirements.txt
+
+python3 main.py
